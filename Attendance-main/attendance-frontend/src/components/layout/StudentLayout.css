@@ -1,0 +1,38 @@
+/* src/components/layout/StudentLayout.css */
+.student-layout {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1e293b; /* Dark blue-gray */
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.sidebar nav a {
+  display: block;
+  margin-bottom: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar nav a:hover {
+  color: #60a5fa; /* Light blue hover */
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f8fafc; /* Soft background */
+}
